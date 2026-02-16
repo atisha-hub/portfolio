@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atisha Malwadkar | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header>
+    <nav class="navbar">
+        <div class="logo">AM</div>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button id="themeToggle" class="theme-btn">🌙</button>
+        <div class="hamburger" id="hamburger">☰</div>
+    </nav>
+</header>
+
+<!-- ================= HOME ================= -->
+<section id="home" class="home-section">
+    <div class="home-content">
+        <img src="images/profile.png" alt="Profile Photo" class="profile-img">
+
+        <h1>Hi, I’m <span class="highlight">Atisha Malwadkar</span></h1>
+        <h2>B.Tech Student | Aspiring Developer</h2>
+        <p>
+            Focused on building clean, efficient, and user-friendly web applications
+            using modern technologies.
+        </p>
+
+        <a href="resume/resume.pdf" class="btn resume-btn" download>
+            ⬇ Download Resume (PDF)
+        </a>
+    </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="about-section">
+    <h2 class="section-title">About Me</h2>
+
+    <p>
+        I am a B.Tech Engineering student at
+        <strong>MIT World Peace University, Pune</strong>,
+        pursuing Electrical and Computer Engineering.
+    </p>
+
+    <p>
+        My career objective is to strengthen my technical expertise in software and web
+        development and contribute to impactful engineering solutions.
+    </p>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section id="skills" class="skills-section">
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skill">
+        <span>HTML</span>
+        <div class="progress"><div class="progress-bar html"></div></div>
+    </div>
+
+    <div class="skill">
+        <span>CSS</span>
+        <div class="progress"><div class="progress-bar css"></div></div>
+    </div>
+
+    <div class="skill">
+        <span>JavaScript</span>
+        <div class="progress"><div class="progress-bar js"></div></div>
+    </div>
+
+    <div class="skill">
+        <span>C / Java / Python (Basics)</span>
+        <div class="progress"><div class="progress-bar basics"></div></div>
+    </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects" class="projects-section">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="projects-grid">
+
+        <div class="project-card">
+            <img src="images/project1.png" alt="Project 1">
+            <h3>Personal Portfolio Website</h3>
+            <p>
+                Responsive portfolio website designed using semantic HTML,
+                modern CSS, and JavaScript.
+            </p>
+            <span>Tech: HTML, CSS, JavaScript</span>
+        </div>
+
+        <div class="project-card">
+            <img src="images/project2.png" alt="Project 2">
+            <h3>Student Management System</h3>
+            <p>
+                A basic front-end system to manage student records,
+                attendance, and academic details.
+            </p>
+            <span>Tech: HTML, CSS, JavaScript</span>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="contact-section">
+    <h2 class="section-title">Contact Me</h2>
+
+    <form id="contactForm"
+      action="https://formspree.io/f/xvzbrrpp"
+      method="POST">
+
+    <input type="text" name="name" id="name" placeholder="Your Name">
+    <input type="email" name="email" id="email" placeholder="Your Email">
+    <textarea name="message" id="message" placeholder="Your Message"></textarea>
+
+    <button type="submit" class="btn">Send Message</button>
+</form>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+    <p>© 2026 Atisha Malwadkar | CCA Assignment</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
